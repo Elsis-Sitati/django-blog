@@ -1,6 +1,7 @@
-#ignore virtual environment
+*.pyc
+__pycache__
 venv
-#ignore all the compiled python files
-*pyc
-#ignore all the complied database files
+db.sqlite3
+/static
+.DS_Store
 *.db
